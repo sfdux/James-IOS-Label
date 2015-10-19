@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55EA0481BD5038F00B18CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EA0471BD5038F00B18CF4 /* main.m */; };
+		C55EA04B1BD5038F00B18CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EA04A1BD5038F00B18CF4 /* AppDelegate.m */; };
+		C55EA04E1BD5038F00B18CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EA04D1BD5038F00B18CF4 /* ViewController.m */; };
+		C55EA0511BD5038F00B18CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55EA04F1BD5038F00B18CF4 /* Main.storyboard */; };
+		C55EA0531BD5038F00B18CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55EA0521BD5038F00B18CF4 /* Assets.xcassets */; };
+		C55EA0561BD5038F00B18CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55EA0541BD5038F00B18CF4 /* LaunchScreen.storyboard */; };
+		C55EA0611BD5038F00B18CF4 /* JamesLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EA0601BD5038F00B18CF4 /* JamesLabelTests.m */; };
+		C55EA06C1BD5038F00B18CF4 /* JamesLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EA06B1BD5038F00B18CF4 /* JamesLabelUITests.m */; };
+		C55EA07C1BD503FD00B18CF4 /* CGStretchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EA07B1BD503FD00B18CF4 /* CGStretchView.m */; settings = {ASSET_TAGS = (); }; };
+		C55EA07E1BD504E200B18CF4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C55EA07D1BD504E200B18CF4 /* background.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C55EA05D1BD5038F00B18CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55EA03B1BD5038F00B18CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55EA0421BD5038F00B18CF4;
+			remoteInfo = JamesLabel;
+		};
+		C55EA0681BD5038F00B18CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55EA03B1BD5038F00B18CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55EA0421BD5038F00B18CF4;
+			remoteInfo = JamesLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C55EA0431BD5038F00B18CF4 /* JamesLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamesLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55EA0471BD5038F00B18CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C55EA0491BD5038F00B18CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C55EA04A1BD5038F00B18CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C55EA04C1BD5038F00B18CF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C55EA04D1BD5038F00B18CF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C55EA0501BD5038F00B18CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55EA0521BD5038F00B18CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55EA0551BD5038F00B18CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55EA0571BD5038F00B18CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55EA05C1BD5038F00B18CF4 /* JamesLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamesLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55EA0601BD5038F00B18CF4 /* JamesLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JamesLabelTests.m; sourceTree = "<group>"; };
+		C55EA0621BD5038F00B18CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55EA0671BD5038F00B18CF4 /* JamesLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamesLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55EA06B1BD5038F00B18CF4 /* JamesLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JamesLabelUITests.m; sourceTree = "<group>"; };
+		C55EA06D1BD5038F00B18CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55EA07A1BD503FD00B18CF4 /* CGStretchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGStretchView.h; sourceTree = "<group>"; };
+		C55EA07B1BD503FD00B18CF4 /* CGStretchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGStretchView.m; sourceTree = "<group>"; };
+		C55EA07D1BD504E200B18CF4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55EA0401BD5038F00B18CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55EA0591BD5038F00B18CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55EA0641BD5038F00B18CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55EA03A1BD5038F00B18CF4 = {
+			isa = PBXGroup;
+			children = (
+				C55EA0451BD5038F00B18CF4 /* JamesLabel */,
+				C55EA05F1BD5038F00B18CF4 /* JamesLabelTests */,
+				C55EA06A1BD5038F00B18CF4 /* JamesLabelUITests */,
+				C55EA0441BD5038F00B18CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55EA0441BD5038F00B18CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55EA0431BD5038F00B18CF4 /* JamesLabel.app */,
+				C55EA05C1BD5038F00B18CF4 /* JamesLabelTests.xctest */,
+				C55EA0671BD5038F00B18CF4 /* JamesLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55EA0451BD5038F00B18CF4 /* JamesLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C55EA07D1BD504E200B18CF4 /* background.jpg */,
+				C55EA0791BD503FD00B18CF4 /* CGStretchView */,
+				C55EA0491BD5038F00B18CF4 /* AppDelegate.h */,
+				C55EA04A1BD5038F00B18CF4 /* AppDelegate.m */,
+				C55EA04C1BD5038F00B18CF4 /* ViewController.h */,
+				C55EA04D1BD5038F00B18CF4 /* ViewController.m */,
+				C55EA04F1BD5038F00B18CF4 /* Main.storyboard */,
+				C55EA0521BD5038F00B18CF4 /* Assets.xcassets */,
+				C55EA0541BD5038F00B18CF4 /* LaunchScreen.storyboard */,
+				C55EA0571BD5038F00B18CF4 /* Info.plist */,
+				C55EA0461BD5038F00B18CF4 /* Supporting Files */,
+			);
+			path = JamesLabel;
+			sourceTree = "<group>";
+		};
+		C55EA0461BD5038F00B18CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55EA0471BD5038F00B18CF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C55EA05F1BD5038F00B18CF4 /* JamesLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				C55EA0601BD5038F00B18CF4 /* JamesLabelTests.m */,
+				C55EA0621BD5038F00B18CF4 /* Info.plist */,
+			);
+			path = JamesLabelTests;
+			sourceTree = "<group>";
+		};
+		C55EA06A1BD5038F00B18CF4 /* JamesLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C55EA06B1BD5038F00B18CF4 /* JamesLabelUITests.m */,
+				C55EA06D1BD5038F00B18CF4 /* Info.plist */,
+			);
+			path = JamesLabelUITests;
+			sourceTree = "<group>";
+		};
+		C55EA0791BD503FD00B18CF4 /* CGStretchView */ = {
+			isa = PBXGroup;
+			children = (
+				C55EA07A1BD503FD00B18CF4 /* CGStretchView.h */,
+				C55EA07B1BD503FD00B18CF4 /* CGStretchView.m */,
+			);
+			path = CGStretchView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55EA0421BD5038F00B18CF4 /* JamesLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55EA0701BD5038F00B18CF4 /* Build configuration list for PBXNativeTarget "JamesLabel" */;
+			buildPhases = (
+				C55EA03F1BD5038F00B18CF4 /* Sources */,
+				C55EA0401BD5038F00B18CF4 /* Frameworks */,
+				C55EA0411BD5038F00B18CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JamesLabel;
+			productName = JamesLabel;
+			productReference = C55EA0431BD5038F00B18CF4 /* JamesLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55EA05B1BD5038F00B18CF4 /* JamesLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55EA0731BD5038F00B18CF4 /* Build configuration list for PBXNativeTarget "JamesLabelTests" */;
+			buildPhases = (
+				C55EA0581BD5038F00B18CF4 /* Sources */,
+				C55EA0591BD5038F00B18CF4 /* Frameworks */,
+				C55EA05A1BD5038F00B18CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55EA05E1BD5038F00B18CF4 /* PBXTargetDependency */,
+			);
+			name = JamesLabelTests;
+			productName = JamesLabelTests;
+			productReference = C55EA05C1BD5038F00B18CF4 /* JamesLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C55EA0661BD5038F00B18CF4 /* JamesLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55EA0761BD5038F00B18CF4 /* Build configuration list for PBXNativeTarget "JamesLabelUITests" */;
+			buildPhases = (
+				C55EA0631BD5038F00B18CF4 /* Sources */,
+				C55EA0641BD5038F00B18CF4 /* Frameworks */,
+				C55EA0651BD5038F00B18CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55EA0691BD5038F00B18CF4 /* PBXTargetDependency */,
+			);
+			name = JamesLabelUITests;
+			productName = JamesLabelUITests;
+			productReference = C55EA0671BD5038F00B18CF4 /* JamesLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55EA03B1BD5038F00B18CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = james;
+				TargetAttributes = {
+					C55EA0421BD5038F00B18CF4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C55EA05B1BD5038F00B18CF4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C55EA0421BD5038F00B18CF4;
+					};
+					C55EA0661BD5038F00B18CF4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C55EA0421BD5038F00B18CF4;
+					};
+				};
+			};
+			buildConfigurationList = C55EA03E1BD5038F00B18CF4 /* Build configuration list for PBXProject "JamesLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55EA03A1BD5038F00B18CF4;
+			productRefGroup = C55EA0441BD5038F00B18CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55EA0421BD5038F00B18CF4 /* JamesLabel */,
+				C55EA05B1BD5038F00B18CF4 /* JamesLabelTests */,
+				C55EA0661BD5038F00B18CF4 /* JamesLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55EA0411BD5038F00B18CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55EA0561BD5038F00B18CF4 /* LaunchScreen.storyboard in Resources */,
+				C55EA07E1BD504E200B18CF4 /* background.jpg in Resources */,
+				C55EA0531BD5038F00B18CF4 /* Assets.xcassets in Resources */,
+				C55EA0511BD5038F00B18CF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55EA05A1BD5038F00B18CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55EA0651BD5038F00B18CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55EA03F1BD5038F00B18CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55EA07C1BD503FD00B18CF4 /* CGStretchView.m in Sources */,
+				C55EA04E1BD5038F00B18CF4 /* ViewController.m in Sources */,
+				C55EA04B1BD5038F00B18CF4 /* AppDelegate.m in Sources */,
+				C55EA0481BD5038F00B18CF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55EA0581BD5038F00B18CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55EA0611BD5038F00B18CF4 /* JamesLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55EA0631BD5038F00B18CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55EA06C1BD5038F00B18CF4 /* JamesLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C55EA05E1BD5038F00B18CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55EA0421BD5038F00B18CF4 /* JamesLabel */;
+			targetProxy = C55EA05D1BD5038F00B18CF4 /* PBXContainerItemProxy */;
+		};
+		C55EA0691BD5038F00B18CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55EA0421BD5038F00B18CF4 /* JamesLabel */;
+			targetProxy = C55EA0681BD5038F00B18CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C55EA04F1BD5038F00B18CF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55EA0501BD5038F00B18CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55EA0541BD5038F00B18CF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55EA0551BD5038F00B18CF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55EA06E1BD5038F00B18CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C55EA06F1BD5038F00B18CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55EA0711BD5038F00B18CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JamesLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.JamesLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C55EA0721BD5038F00B18CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JamesLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.JamesLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C55EA0741BD5038F00B18CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JamesLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.JamesLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamesLabel.app/JamesLabel";
+			};
+			name = Debug;
+		};
+		C55EA0751BD5038F00B18CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JamesLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.JamesLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamesLabel.app/JamesLabel";
+			};
+			name = Release;
+		};
+		C55EA0771BD5038F00B18CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JamesLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.JamesLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JamesLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C55EA0781BD5038F00B18CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JamesLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.JamesLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JamesLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55EA03E1BD5038F00B18CF4 /* Build configuration list for PBXProject "JamesLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55EA06E1BD5038F00B18CF4 /* Debug */,
+				C55EA06F1BD5038F00B18CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55EA0701BD5038F00B18CF4 /* Build configuration list for PBXNativeTarget "JamesLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55EA0711BD5038F00B18CF4 /* Debug */,
+				C55EA0721BD5038F00B18CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55EA0731BD5038F00B18CF4 /* Build configuration list for PBXNativeTarget "JamesLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55EA0741BD5038F00B18CF4 /* Debug */,
+				C55EA0751BD5038F00B18CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55EA0761BD5038F00B18CF4 /* Build configuration list for PBXNativeTarget "JamesLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55EA0771BD5038F00B18CF4 /* Debug */,
+				C55EA0781BD5038F00B18CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55EA03B1BD5038F00B18CF4 /* Project object */;
+}
